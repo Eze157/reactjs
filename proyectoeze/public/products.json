@@ -2,92 +2,76 @@
     {
     "id":1,
     "name": "Batman Inicio",
-    "img" : "./asset/img/daredevil.jpg",
+    "img" : "./asset/img/BatmanBegins.jpg",
     "stock" : 5,
     "price": 200
     },
     {
     "id":2,
-    "name": "hola",
-    "img" : "../asset/img/hola.jpg",
+    "name": "El Patriota",
+    "img" : "./asset/img/el patriota.jpg",
     "stock" : 5,
     "price": 200
     },
     {
     "id":3,
-    "name": "hola",
-    "img" : "../asset/img/hola.jpg",
+    "name": "En busca de la felicidad",
+    "img" : "./asset/img/En busca de la felicidad.jpg",
     "stock" : 5,
     "price": 200
     },
     {
     "id":4,
-    "name": "hola",
-    "img" : "../asset/img/hola.jpg",
+    "name": "The Marvels",
+    "img" : "./asset/img/the marvels.jpeg",
     "stock" : 5,
     "price": 200
     }
     ,
     {
     "id":5,
-    "name": "hola",
-    "img" : "../asset/img/hola.jpg",
+    "name": "El Último Samurai",
+    "img" : "./asset/img/El ultimo samurai.jpg",
     "stock" : 5,
     "price": 200
     }
     ,
     {
     "id":6,
-    "name": "hola",
-    "img" : "../asset/img/hola.jpg",
+    "name": "Friends",
+    "img" : "./asset/img/Friends.jpg",
     "stock" : 5,
     "price": 200
     }
     ,
     {
     "id":7,
-    "name": "hola",
-    "img" : "../asset/img/hola.jpg",
+    "name": "The Office",
+    "img" : "./asset/img/the office.jpg",
     "stock" : 5,
     "price": 200
     }
     ,
     {
     "id":8,
-    "name": "hola",
-    "img" : "../asset/img/hola.jpg",
+    "name": "Breaking Bad",
+    "img" : "./asset/img/Breaking Bad.jpg",
     "stock" : 5,
     "price": 200
     }
     ,
     {
     "id":9,
-    "name": "hola",
-    "img" : "../asset/img/hola.jpg",
+    "name": "Got",
+    "img" : "./asset/img/got.jpg",
     "stock" : 5,
     "price": 200
     }
     ,
     {
     "id":10,
-    "name": "hola",
-    "img" : "../asset/img/hola.jpg",
-    "stock" : 5,
-    "price": 200
-    }
-    ,
-    {
-    "id":11,
-    "name": "hola",
-    "img" : "../asset/img/hola.jpg",
-    "stock" : 5,
-    "price": 200
-    }
-    ,
-    {
-    "id":12,
-    "name": "hola",
-    "img" : "../asset/img/hola.jpg",
+    "name": "Daredevil",
+    "img" : "./asset/img/daredevil.jpg",
     "stock" : 5,
     "price": 200
     }
