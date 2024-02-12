@@ -5,7 +5,6 @@ const CartWidget = () => {
     return (
     <>
         <img src="../asset/img/cart.png" alt="" />
-        <p className="count">0</p>
     </>
     )
 }

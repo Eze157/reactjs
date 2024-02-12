@@ -21,15 +21,17 @@ const ItemListContainer = ({greeting}) => {
 
     return (
     <>
-        <p className="greeting">{greeting}</p>
+        <div className='itemListContainer'>
+            <p>{greeting}</p>
 
-        {
-            products.length == 0 
-            ? 
-            <h1>loading..</h1> 
-            :
-            <ItemList products={products}/>
-        }   
+            {
+                products.length == 0 
+                ? 
+                <h1>loading..</h1> 
+                :
+                <ItemList products={products}/>
+            }   
+        </div>
     </>
     )
 }

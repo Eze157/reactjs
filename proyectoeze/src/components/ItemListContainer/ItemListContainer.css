@@ -1,4 +1,11 @@
-.greeting{
-    text-align: center;
+.itemListContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p{
     font-size: 50px;
+    text-decoration: solid;
 }
