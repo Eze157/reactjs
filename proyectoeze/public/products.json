@@ -1,0 +1,94 @@
+[
+    {
+    "id":1,
+    "name": "Batman Inicio",
+    "img" : "./asset/img/daredevil.jpg",
+    "stock" : 5,
+    "price": 200
+    },
+    {
+    "id":2,
+    "name": "hola",
+    "img" : "../asset/img/hola.jpg",
+    "stock" : 5,
+    "price": 200
+    },
+    {
+    "id":3,
+    "name": "hola",
+    "img" : "../asset/img/hola.jpg",
+    "stock" : 5,
+    "price": 200
+    },
+    {
+    "id":4,
+    "name": "hola",
+    "img" : "../asset/img/hola.jpg",
+    "stock" : 5,
+    "price": 200
+    }
+    ,
+    {
+    "id":5,
+    "name": "hola",
+    "img" : "../asset/img/hola.jpg",
+    "stock" : 5,
+    "price": 200
+    }
+    ,
+    {
+    "id":6,
+    "name": "hola",
+    "img" : "../asset/img/hola.jpg",
+    "stock" : 5,
+    "price": 200
+    }
+    ,
+    {
+    "id":7,
+    "name": "hola",
+    "img" : "../asset/img/hola.jpg",
+    "stock" : 5,
+    "price": 200
+    }
+    ,
+    {
+    "id":8,
+    "name": "hola",
+    "img" : "../asset/img/hola.jpg",
+    "stock" : 5,
+    "price": 200
+    }
+    ,
+    {
+    "id":9,
+    "name": "hola",
+    "img" : "../asset/img/hola.jpg",
+    "stock" : 5,
+    "price": 200
+    }
+    ,
+    {
+    "id":10,
+    "name": "hola",
+    "img" : "../asset/img/hola.jpg",
+    "stock" : 5,
+    "price": 200
+    }
+    ,
+    {
+    "id":11,
+    "name": "hola",
+    "img" : "../asset/img/hola.jpg",
+    "stock" : 5,
+    "price": 200
+    }
+    ,
+    {
+    "id":12,
+    "name": "hola",
+    "img" : "../asset/img/hola.jpg",
+    "stock" : 5,
+    "price": 200
+    }
+]

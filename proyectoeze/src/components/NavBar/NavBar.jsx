@@ -10,10 +10,10 @@ const NavBar = () => {
         <>
         <p className="name">Cas<span>Var</span></p>
         <ul>
-            <li><a>Inicio</a></li>
-            <li><a>Productos</a></li>
-            <li><a>Nosotros</a></li>
-            <li><a>Contactanos</a></li>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Productos</a></li>
+            <li><a href="">Nosotros</a></li>
+            <li><a href="">Contactanos</a></li>
         </ul>
 
         <CartWidget/>
