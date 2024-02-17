@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import ItemDetail from '../ItemDetail/ItemDetail';
 
-const ItemDetailContainer = (id) => {
+const ItemDetailContainer = ({id}) => {
     const [product,setProduct] = useState([]);
 
     useEffect(()=>{
@@ -9,8 +9,8 @@ const ItemDetailContainer = (id) => {
             try{
                 const response = await fetch("./products.json");
                 const data = await response.json();
-                const product = data.find((p)=>p.id == id)
-                setProduct(data);
+                const products = data.find((p)=>p.id == id)
+                setProduct(products);
             }catch (error){
                 console.log(error)
             }

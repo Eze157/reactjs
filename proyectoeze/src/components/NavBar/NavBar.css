@@ -1,8 +1,28 @@
-.name{
-    text-align: center;
-    font-size: 80px;
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+
+.cas{
+    color: white;
+    font-size: 30px;
 }
 
 span{
-    color: blue;
+    color: black;
+    font-size: 30px;
+}
+
+.link{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link-nav{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
