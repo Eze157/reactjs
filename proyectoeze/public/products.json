@@ -2,77 +2,87 @@
     {
     "id":1,
     "name": "Batman Inicio",
-    "img" : "./asset/img/BatmanBegins.jpg",
+    "img" : "../asset/img/BatmanBegins.jpg",
     "stock" : 5,
-    "price": 200
+    "price": 200,
+    "category": "peliculas"
     },
     {
     "id":2,
     "name": "El Patriota",
-    "img" : "./asset/img/el patriota.jpg",
+    "img" : "../asset/img/el patriota.jpg",
     "stock" : 8,
-    "price": 200
+    "price": 200,
+    "category": "peliculas"
     },
     {
     "id":3,
     "name": "En busca de la felicidad",
-    "img" : "./asset/img/En busca de la felicidad.jpg",
+    "img" : "../asset/img/En busca de la felicidad.jpg",
     "stock" : 7,
-    "price": 200
+    "price": 200,
+    "category": "peliculas"
     },
     {
     "id":4,
     "name": "The Marvels",
-    "img" : "./asset/img/the marvels.jpeg",
+    "img" : "../asset/img/the marvels.jpeg",
     "stock" : 11,
-    "price": 200
+    "price": 200,
+    "category": "peliculas"
     }
     ,
     {
     "id":5,
     "name": "El Último Samurai",
-    "img" : "./asset/img/El ultimo samurai.jpg",
+    "img" : "../asset/img/El ultimo samurai.jpg",
     "stock" : 4,
-    "price": 200
+    "price": 200,
+    "category": "peliculas"
     }
     ,
     {
     "id":6,
     "name": "Friends",
-    "img" : "./asset/img/Friends.jpg",
+    "img" : "../asset/img/Friends.jpg",
     "stock" : 20,
-    "price": 200
+    "price": 200,
+    "category": "series"
     }
     ,
     {
     "id":7,
     "name": "The Office",
-    "img" : "./asset/img/the office.jpg",
+    "img" : "../asset/img/the office.jpg",
     "stock" : 15,
-    "price": 200
+    "price": 200,
+    "category": "series"
     }
     ,
     {
     "id":8,
     "name": "Breaking Bad",
-    "img" : "./asset/img/Breaking Bad.jpg",
+    "img" : "../asset/img/Breaking Bad.jpg",
     "stock" : 12,
-    "price": 200
+    "price": 200,
+    "category": "series"
     }
     ,
     {
     "id":9,
     "name": "Got",
-    "img" : "./asset/img/got.jpg",
+    "img" : "../asset/img/got.jpg",
     "stock" : 10,
-    "price": 200
+    "price": 200,
+    "category": "series"
     }
     ,
     {
     "id":10,
     "name": "Daredevil",
-    "img" : "./asset/img/daredevil.jpg",
+    "img" : "../asset/img/daredevil.jpg",
     "stock" : 10,
-    "price": 200
+    "price": 200,
+    "category": "series"
     }
 ]

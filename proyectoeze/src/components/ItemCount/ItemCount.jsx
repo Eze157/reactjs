@@ -17,10 +17,10 @@ const ItemCount = ({prop, stock}) => {
     }
 
     return (
-    <div>
-        <CartWidget/>
+    <div className='container'>
+        
         <div>
-            <button onClick={Delete}>-</button> {count} <button onClick={Add}>+</button>
+            <button onClick={Delete} className='button'>-</button> <CartWidget/> <button onClick={Add} className='button'>+</button><p> {count} </p>
         </div>
     </div>
     )
