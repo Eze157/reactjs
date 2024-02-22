@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import CartWidget from '../CartWidget/CartWidget';
+import { Link } from 'react-router-dom';
 
 const ItemCount = ({prop, stock}) => {
     const [count,setCount] = useState(1)

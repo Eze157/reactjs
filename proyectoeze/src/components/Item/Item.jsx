@@ -6,11 +6,11 @@ const Item = ({product}) => {
 
     console.log(product)
     return (
-        <Link to={`/detalle/${product.id}`}>
-            <div key={product.id} className='Item'>
-                <h2 className='name'>{product.name}</h2>
+        <Link to={`/detalle/${product.id}`} className='Item'>
+            <div key={product.id}>
+                <h2>{product.name}</h2>
                 <img src={product.img} alt={product.nombre}/>
-                <h2 className='price'>{product.price}</h2>
+                <h2>{product.description}</h2>
             </div>
         </Link>
     )

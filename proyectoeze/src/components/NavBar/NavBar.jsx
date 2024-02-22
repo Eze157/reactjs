@@ -11,13 +11,13 @@ const NavBar = () => {
         <>
             <div className="navbar">
                 <div className="link">
-                    <Link className="link-nav"><span className="cas">Cas</span><span>Var</span></Link><br/>
+                    <Link to='/' className="link-nav"><span className="cas">Cas</span><span>Var</span></Link><br/>
                     <Link to='/' className="link-nav">Inicio</Link>
                     <Link to='/category/peliculas' className="link-nav">Peliculas</Link>
                     <Link to='/category/series' className="link-nav">Series</Link>
                     <Link to={'/detalle'} className="link-nav">Información</Link>
                     <Link className="link-nav">Nosotros</Link>
-                    <CartWidget/>
+                    <Link to={'/cart'}><CartWidget/></Link>
                 </div>
             </div>
         </>

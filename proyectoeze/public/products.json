@@ -5,31 +5,35 @@
     "img" : "../asset/img/BatmanBegins.jpg",
     "stock" : 5,
     "price": 200,
-    "category": "peliculas"
+    "category": "peliculas",
+    "description": "....."
     },
     {
     "id":2,
     "name": "El Patriota",
     "img" : "../asset/img/el patriota.jpg",
     "stock" : 8,
-    "price": 200,
-    "category": "peliculas"
+    "price": 150,
+    "category": "peliculas",
+    "description": "....."
     },
     {
     "id":3,
     "name": "En busca de la felicidad",
     "img" : "../asset/img/En busca de la felicidad.jpg",
     "stock" : 7,
-    "price": 200,
-    "category": "peliculas"
+    "price": 180,
+    "category": "peliculas",
+    "description": "....."
     },
     {
     "id":4,
     "name": "The Marvels",
     "img" : "../asset/img/the marvels.jpeg",
     "stock" : 11,
-    "price": 200,
-    "category": "peliculas"
+    "price": 300,
+    "category": "peliculas",
+    "description": "....."
     }
     ,
     {
@@ -37,8 +41,9 @@
     "name": "El Último Samurai",
     "img" : "../asset/img/El ultimo samurai.jpg",
     "stock" : 4,
-    "price": 200,
-    "category": "peliculas"
+    "price": 310,
+    "category": "peliculas",
+    "description": "....."
     }
     ,
     {
@@ -46,8 +51,9 @@
     "name": "Friends",
     "img" : "../asset/img/Friends.jpg",
     "stock" : 20,
-    "price": 200,
-    "category": "series"
+    "price": 275,
+    "category": "series",
+    "description": "....."
     }
     ,
     {
@@ -55,8 +61,9 @@
     "name": "The Office",
     "img" : "../asset/img/the office.jpg",
     "stock" : 15,
-    "price": 200,
-    "category": "series"
+    "price": 250,
+    "category": "series",
+    "description": "....."
     }
     ,
     {
@@ -64,8 +71,9 @@
     "name": "Breaking Bad",
     "img" : "../asset/img/Breaking Bad.jpg",
     "stock" : 12,
-    "price": 200,
-    "category": "series"
+    "price": 300,
+    "category": "series",
+    "description": "....."
     }
     ,
     {
@@ -73,8 +81,9 @@
     "name": "Got",
     "img" : "../asset/img/got.jpg",
     "stock" : 10,
-    "price": 200,
-    "category": "series"
+    "price": 245,
+    "category": "series",
+    "description": "....."
     }
     ,
     {
@@ -82,7 +91,8 @@
     "name": "Daredevil",
     "img" : "../asset/img/daredevil.jpg",
     "stock" : 10,
-    "price": 200,
-    "category": "series"
+    "price": 260,
+    "category": "series",
+    "description": "....."
     }
 ]
