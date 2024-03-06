@@ -1,4 +1,8 @@
 .cart{
-    height: 45px;
-    width: 45px;
+    height: 55px;
+    width: 55px;
+}
+
+.size{
+    font-size: 20px;
 }

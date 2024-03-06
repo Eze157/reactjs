@@ -1,5 +1,5 @@
 .navbar{
-    height: 100px;
+    height: 150px;
     width: 100%;
     background-color: blue;
 }
@@ -25,4 +25,11 @@ span{
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+
+.nav{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 1px;
 }

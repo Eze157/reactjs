@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import CartWidget from '../CartWidget/CartWidget';
-import { Link } from 'react-router-dom';
+import "./ItemCount.css"
 
-const ItemCount = ({prop, stock}) => {
+const ItemCount = ({prop, stock, onAdd}) => {
     const [count,setCount] = useState(1)
 
     const Delete = ()=>{
@@ -17,11 +16,17 @@ const ItemCount = ({prop, stock}) => {
         )
     }
 
+    const Cart =()=>{
+        onAdd(count)
+    }
+
     return (
-    <div className='container'>
+    <div>
         
-        <div>
-            <button onClick={Delete} className='button'>-</button> <CartWidget/> <button onClick={Add} className='button'>+</button><p> {count} </p>
+        <div className='counter'>
+            <button onClick={Delete} className='button'>-</button> {count} <button onClick={Add} className='button'>+</button>
+            <br /><br />
+            <button onClick={Cart}>Agregar al carrito</button>
         </div>
     </div>
     )
