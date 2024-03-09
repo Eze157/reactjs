@@ -22,10 +22,21 @@ const ItemDetail = ({product}) => {
     <div className='Item'>
         <h2>{product.name}</h2>
         <img src={product.img} alt={product.nombre} />
-        <h2>{product.price}</h2>
+        <h2>${product.price}</h2>
         <h2>{product.description}</h2>
 
-        {cart ? <Link to={'/cart'}><button>Ir a finalizar compra</button></Link> : <ItemCount prop={1} stock={product.stock} onAdd={onAdd}/> }
+        {product.stock == 0 
+        ? 
+        <>
+        <h2>Sin stock</h2>
+        <Link to={"/"}><button>Volver al inicio</button></Link>
+        </>
+        :
+        (
+            cart ? <Link to={'/cart'}><button>Ir al carrito de compras</button></Link> :
+            <ItemCount prop={1} stock={product.stock} onAdd={onAdd}/> 
+        )}
+
         
     </div>
     </>

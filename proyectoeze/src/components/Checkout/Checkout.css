@@ -1,0 +1,15 @@
+h1{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.forms{
+    margin: auto;
+    padding: 10px;
+    height: auto;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
