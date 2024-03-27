@@ -47,14 +47,25 @@ const Checkout = () => {
             Promise.all(
                 order.items.map(async (productOrder) => {
                     const productoRef = doc(db,"products",productOrder.id);
-                    const productoDoc = await getDoc(productoRef)
-                    const stockActual = productoDoc.data().quant
-    
-                    await updateDoc(productoRef, {
-                        stock: stockActual - productOrder.stock
-                    })
+                    const productoDoc = await getDoc(productoRef);
+            
+                    if (productoDoc.exists()) {
+                        const stockActual = productoDoc.data().stock;
+            
+                        if (stockActual !== undefined) {
+                            await updateDoc(productoRef, {
+                                stock: stockActual - productOrder.cantidad
+                            });
+                        } else {
+                            console.error(`El producto ${productOrder.id} no tiene un valor de stock definido.`);
+                        }
+                    } else {
+                        console.error(`El producto ${productOrder.id} no existe en la base de datos.`);
+                    }
                 })
             )
+            
+
             .then(() => {
                 addDoc(collection(db,"orders"),order)
                 .then((docRef) => {
