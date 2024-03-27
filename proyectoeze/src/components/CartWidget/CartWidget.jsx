@@ -8,8 +8,8 @@ const CartWidget = () => {
 
     return (
         <>
-        <img src="../asset/img/cart.png" alt="" className='cart'/>
-        <p className='size'>{quantityCart() == 0 ? null : quantityCart()}</p>
+            <img src="../asset/img/cart.png" alt="" className='cart'/>
+            <p className='size'>{quantityCart() == 0 ? null : quantityCart()}</p>
         </>
     )
 }

@@ -15,7 +15,9 @@ const NavBar = () => {
                     <Link to='/' className="link-nav">Inicio</Link>
                     <Link to='/category/peliculas' className="link-nav">Peliculas</Link>
                     <Link to='/category/series' className="link-nav">Series</Link>
-                    <Link to={'/cart'} className="nav"><CartWidget/></Link>
+                    <Link to={'/cart'} className="nav">
+                            <CartWidget/>
+                        </Link>
                 </div>
             </div>
         </>
